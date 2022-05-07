@@ -7,6 +7,7 @@
 .container {
   background-image: url(./IMG_0710\ 2.jpg);
 }
+
 header {
   background-color: rgb(134, 170, 195);
   color: rgb(255, 255, 255);
@@ -14,21 +15,22 @@ header {
   background-image: url(./IMG_0714.jpg);
   background-blend-mode: hard-light;
 }
-.headingcontent{
 
-  
-}
+
+
+
 .mypic {
   width: 40%;
   display: flex;
   flex-direction: column;
 }
+
 header a {
   color: rgb(218, 222, 228);
   font-size: 30px;
   padding-bottom: 20px;
   float: right;
-  
+
 }
 
 main {
@@ -37,70 +39,79 @@ main {
 }
 
 
-.about-me,.work,.contact-me{
+.about-me,
+.work,
+.contact-me {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
 }
 
-.aboutmeheader, .workheader,.contactmeheader{
+.aboutmeheader,
+.workheader,
+.contactmeheader {
   width: 25%;
   border-right: 2px solid black;
 }
-.aboutmecontent, .workcontent,.contactmecontent{
-width: 75%;
+
+.aboutmecontent,
+.workcontent,
+.contactmecontent {
+  width: 75%;
 }
-.smallimages{
+
+.smallimages {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
 }
-.singleimage{
+
+.singleimage {
   width: 50%;
   display: flex;
   flex-direction: column;
 }
-.singleimage img{
+
+.singleimage img {
   height: 100%;
- width: 100%;
- object-fit: contain;
- align-self: center;
-}
-.workparagraph{
- justify-content: center;
- 
+  width: 100%;
+  object-fit: contain;
+  align-self: center;
 }
 
-.image-horison{
- height: 100%;
- width: 100%;
- object-fit: contain;
- align-self: center;
+.workparagraph {
+  justify-content: center;
+
+}
+
+.image-horison {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  align-self: center;
 }
 
 
 .contactmecontent {
   display: flex;
-flex-direction:row ;
-justify-content: space-evenly;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
 
 /*media query will help the page adjust the iteams whenever theres a change in the size of the window*/
-@media screen and (max-width:1024px) {
-  header {
+@media screen and (max-width:1224px) {
+header {
     width: 100%;
     background-color: rgb(227, 36, 208);
   }
 
 }
+@media screen and (max-width:768px) {
+  header {
+      width: 100%;
+      background-color: rgb(36, 227, 97);
+    }
+  main{
 
-@media  screen and( max-width:750px) {
-  .about-me {
-    width: 100%;
-    background-color: blueviolet;
   }
-}
-@media screen and(max-width)
-{
-  
-}
+  }
