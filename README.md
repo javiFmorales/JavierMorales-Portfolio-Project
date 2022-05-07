@@ -15,3 +15,4 @@ The next step was to create my CSS file where i would add styling to my HTML ddo
 
 The last step was to push my code into my Github account.
 
+To access my portfolio click on this link: https://javifmorales.github.io/JavierMorales-Portfolio-Project/
